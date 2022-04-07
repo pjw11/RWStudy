@@ -10,23 +10,18 @@
         #box2{float: left; margin-left: 20px; margin-right: 20px;}
         #box3{float: left; margin-left: 20px; margin-right: 20px;}
         .te{margin-left: 130px;}
-        #sec{text-align: center;}
+        #cc{text-align: center;}
     </style>
 </head>
 <body>
     <p>하노이의 탑</p>
-    <button onclick="open();">초기화</button>
+    <input type="button" value="초기화" onclick="Init()">
     <br>
     <div id="box1" style="border: 2px solid orange; width: 300px; height: 500px;">
         <span class="te" id="sp">first</span>
-            <div id="sec">
-            🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥 <br><br>
-            🟨🟨🟨🟨🟨🟨🟨🟨🟨 <br><br>
-            🟩🟩🟩🟩🟩🟩🟩 <br><br>
-            🟦🟦🟦🟦🟦 <br><br>
-            🟪🟪🟪 <br><br>
-            ⬛
-            </div>
+        <div id="test">
+
+        </div>
     </div>
     <div id="box2" style="border: 2px solid green; width: 300px; height: 500px;">
         <span class="te">second</span>
@@ -34,11 +29,6 @@
     <div id="box3" style="border: 2px solid blue; width: 300px; height: 500px;">
         <span class="te">third</span>
     </div>
-    <script>
-        var bt = document.getElementById('open');
-        var sc = document.getElementById('sec');
-
-            
-    </script>
+    <script src="main.js"></script>
 </body>
 </html>
